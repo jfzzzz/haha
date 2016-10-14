@@ -1,147 +1,28 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <title>情绪不好娱乐而已,嗯哼</title>
-        <link rel="stylesheet" href="new_file.css" />
-    </head>
-    <body>
-        <div id="wrap">
-            <!--头部开始-->
-            <div id="header">
-                <h1><a href="#">你看的娱乐，只是开心而已。这这个游戏</a></h1>
-                <p>
-                    随笔- <span>0</span>
-                    文章- <span>0</span>
-                    评论- <span>0</span>
-                </p>
-                <ul>
-                    <li><a href="#">博客园</a></li>
-                    <li><a href="#">首页</a></li>
-                    <li><a href="#">新随笔</a></li>
-                    <li><a href="#">联系</a></li>
-                    <li><a href="#">订阅</a></li>
-                    <li><a href="#">管理</a></li>
-                </ul>
-            </div>
-            <!--头部结束-->
-            <!--主体开始-->
-            <div id="mainbody">
-                <!--公告-->
-                <div id="news"  class="haha">
-                    <h3 class="head">公告</h3>
-                    <ul>
-                        <li>昵称：<a href="#">willYKYao</a></li>
-                        <li>园龄：<a href="#">1天</a></li>
-                        <li>粉丝：<a href="#">0</a></li>
-                        <li>关注：<a href="#">0</a></li>
-                        <li><a href="#">+加关注</a></li>
-                    </ul>
-                </div>
-                <!--日历-->
-                <div id="time">
-                    <h3>
-                        <span class="left"><a href="">&lt;</a></span>
-                        <span class="right"><a href="">&gt;</a></span>
-                        2016年10月
-                    </h3>
-                    <table>
-                        <thead>
-                            <tr>
-                                <td>日</td>
-                                <td>一</td>
-                                <td>二</td>
-                                <td>三</td>
-                                <td>四</td>
-                                <td>五</td>
-                                <td>六</td>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>25</td>
-                                <td>26</td>
-                                <td>27</td>
-                                <td>28</td>
-                                <td>29</td>
-                                <td>30</td>
-                                <td>1</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>3</td>
-                                <td>4</td>
-                                <td>5</td>
-                                <td>6</td>
-                                <td>7</td>
-                                <td>8</td>
-                            </tr>
-                            <tr>
-                                <td>9</td>
-                                <td>10</td>
-                                <td class="active">11</td>
-                                <td>12</td>
-                                <td>13</td>
-                                <td>14</td>
-                                <td>15</td>
-                            </tr>
-                            <tr>
-                                <td>16</td>
-                                <td>17</td>
-                                <td>18</td>
-                                <td>19</td>
-                                <td>20</td>
-                                <td>21</td>
-                                <td>22</td>
-                            </tr>
-                            <tr>
-                                <td>23</td>
-                                <td>24</td>
-                                <td>25</td>
-                                <td>26</td>
-                                <td>27</td>
-                                <td>28</td>
-                                <td>29</td>
-                            </tr>
-                            <tr>
-                                <td>30</td>
-                                <td>31</td>
-                                <td>1</td>
-                                <td>2</td>
-                                <td>3</td>
-                                <td>4</td>
-                                <td>5</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            <!--搜索-->
-            <div id="search">
-                <h3 class="head">搜索</h3>
-                <div>
-                    <input class="txt" type="text" />
-                    <input type="button" value="找找看"/><br />
-                    <input class="txt" type="text" />
-                    <input type="button" value="谷歌搜索"/>
-                </div>
-            </div>
-            <div id="link" class="haha">
-                <h3 class="head">常用链接</h3>
-                <ul>
-                    <li><a href="#">我的随笔</a></li>
-                    <li><a href="#">我的评论</a></li>
-                    <li><a href="#">我的参与</a></li>
-                    <li><a href="#">最佳评论</a></li>
-                    <li><a href="#">我的标签</a></li>
-                </ul>
-            </div>    
-            <!--主体结束-->
-            <!--尾部开始-->
-            <div id="footer">
-                <p>Copyright&copy;2016 willYKYao</p>
-            </div>
-            <!--尾部结束-->
-        </div>
-    </body>
+<meta charset="utf-8">
+<head>
+	<title>Image Gallery</title>
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+</head>
+<body>
+	<h1>Snapshots</h1>
+	<ul>
+		<li>
+			<a href="001.jpg" title="this is a curt fox one " onclick="showPic(this);return false">fox1</a>
+		</li>
+		<li>
+			<a href="002.jpg" title="The beautiful fox " onclick="showPic(this);return false">fox2</a>
+		</li>
+		<li>
+			<a href="003.jpg" title="A red fox " onclick="showPic(this);return false">fox3</a>
+		</li>
+		<li>
+			<a href="004.jpg" title="The last one " onclick="showPic(this);return false">fox4</a>
+		</li>
+		<img id="placeholder" src="az.jpg" alt="my image gallery" height="300px" width="500px" />
+		<p id="description" >Choose an image.<span >默认是第一个奥</span></p>
+	</ul>
+	<script type="text/javascript" src="text.js"></script>
+</body>
 </html>
