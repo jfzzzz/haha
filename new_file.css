@@ -1,0 +1,153 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,table,tbody{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration:none;
+}
+li{
+    list-style-type:none;
+}
+
+body{
+    font-size:12px;
+    font-family:"宋体",arial,sans-serif;
+    background:#c7cbbd url(../img/header-bg.jpg) no-repeat;
+    color:#6a6352;
+}
+#wrap{
+    width:950px;
+    margin:0 auto;
+}
+
+/*头部*/
+#header{
+    height:300px;
+}
+#header h1{
+    padding-top:136px;
+    font-family:arial;
+}
+#header h1 a{
+    font-size:38px;
+    font-weight:normal;
+    color:#000;
+}
+#header h1 a:hover{
+    text-decoration:underline;
+}
+#header p{
+    color:#666;
+    margin:45px 0 0 810px;
+}
+#header ul{
+    margin:10px 0 0 40px;
+}
+#header ul li{
+    font-family: "微软雅黑";
+    float:left;
+    text-align: center;
+}
+#header ul li a{
+    display:inline-block;
+    width:70px;
+    font-size:14px;
+    color:#555;
+}
+#header ul li a:hover{
+    font-size:20px;
+    color:#fff;
+    background-color: none;
+}
+
+/*主体公告*/
+.head{
+    color:#55626e;
+    font-size:14px;
+    font-family:"宋体";
+    padding:5px 166px 3px 10px;
+    display:inline-block;
+    border-bottom:1px solid #d6dddc;
+}
+.haha{
+    margin-top:10px;
+}
+.haha ul{
+    padding:15px 0px 0px 10px;
+}
+.haha ul li{
+    font-size:12px;
+    line-height:18px;
+}
+.haha ul li a{
+    font-family:arial;
+    color:#6a6352;
+}
+.haha ul li a:hover{
+    text-decoration:underline;
+}
+
+/*日历*/
+#time{
+    margin-top:34px;
+    position:relative;
+    font-size:14px;
+    font-family:arial;
+}
+#time h3{
+    font-size:13px;
+    margin:0 0 8px 63px;
+    letter-spacing:1px;
+}
+#time span a{
+    font-weight:normal;
+    color:#6a6352;
+}
+#time span a:hover{
+    text-decoration:underline;
+}
+#time table{
+    height:145px;
+    text-align: center;
+    width:207px;
+}
+#time table thead{
+    font-weight:bold;
+}
+.active{
+    color:red;
+}
+#time .left{
+    position:absolute;
+    left:6px;
+    top:0px;
+}
+#time .right{
+    position:absolute;
+    left:192px;
+    top:0px;
+}
+
+/*搜索*/
+#search div{
+    padding-left:10px;
+}
+#search .txt{
+    width:102px;
+    height:20px;
+    margin-top:5px;
+}
+
+/*链接*/
+#link li{
+    line-height:20px;
+}
+
+/*尾部*/
+#footer{
+    height:90px;
+    line-height:90px;
+    font-family:arial;
+    text-align: center;
+    font-size:14px;
+}
